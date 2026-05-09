@@ -1,6 +1,6 @@
 # Financial Risk Modeling System
 
-An Object-Oriented Financial Risk Engine built in Python. This system was developed as a research-level project for STA 2208/SMA 2430 to simulate extreme market volatility across a diversified portfolio using advanced system design and statistical analysis principles.
+An Object-Oriented Financial Risk Engine built in Python. This system was developed as a research-level project for STA 2208 to simulate extreme market volatility across a diversified portfolio using advanced system design and statistical analysis principles.
 
 ## System Architecture & Features
 This project evolved through 6 major development milestones, scaling from basic procedural scripts to a robust quantitative framework:
