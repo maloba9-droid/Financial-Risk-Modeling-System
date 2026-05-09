@@ -1,0 +1,9 @@
+# Ignore data cache files
+*_cache.csv
+
+# Ignore Python cache folders
+__pycache__/
+*.pyc
+
+# Ignore generated portfolio state
+portfolio_state.json
