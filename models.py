@@ -12,7 +12,7 @@ class RiskStrategy:
 class VolatilityRiskStrategy(RiskStrategy):
     """Calculates shock based on real historical volatility."""
     def calculate_shock(self, asset, market_drop: float) -> float:
-        # Now uses the asset's helper method
+        # Now uses the asset's helper method 
         volatility = asset.calculate_volatility()
         shock_factor = market_drop * (1 + volatility)
         return asset.get_current_price() * (1 - shock_factor)
