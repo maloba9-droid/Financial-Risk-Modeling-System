@@ -1,5 +1,4 @@
 # exceptions.py
-
 class SystemError(Exception):
     """Base exception for the Financial Risk System."""
     pass
